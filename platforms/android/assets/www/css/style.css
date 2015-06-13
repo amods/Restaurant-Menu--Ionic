@@ -1,0 +1,36 @@
+/* Empty. Add your own CSS if you like */
+.first{
+    /*height: 50px;*/
+    border-top:1px solid #c3c3c3;
+    border-bottom:1px solid #c3c3c3;
+    padding: 10px 15px 10px 15px;
+    background-image: url("../img/headline-bg.png");
+}
+.subMenuitem{
+   /* background-image: url("../img/headline-bg.png");*/
+    padding: 10px 15px 10px 15px;
+
+}
+.collapse.in
+{
+    display: block;
+}
+.collapse{
+    display: none;
+}
+button{
+    width: 80px;
+    height: 47px;
+    float: right;
+    background: #80B133;
+    border-radius: 5px;
+    color: #ffffff;
+    line-height: 24px;
+}
+button i {
+    background: url("../img/add-green-btn.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    float: left;
+    height: 24px;
+    width: 24px;
+}
